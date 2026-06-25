@@ -1,62 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | QA Automation Engineer</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
-    }
-    h1 { margin-bottom: 8px; }
-    .links a {
-      margin-right: 16px;
-      text-decoration: none;
-      color: #0a66c2;
-      font-weight: bold;
-    }
-    .project {
-      border: 1px solid #ddd;
-      padding: 16px;
-      margin: 16px 0;
-      border-radius: 8px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Mohan Kolamala | Senior Software QA & AI Automation Engineer</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-blue: #38bdf8;
+            --accent-green: #34d399;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            color: var(--accent-blue);
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--accent-green);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .summary-text {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-card {
+            background-color: var(--card-bg);
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .skill-card h4 {
+            color: var(--accent-blue);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .skill-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .exp-item {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 1rem;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 0.75rem;
+            gap: 0.5rem;
+        }
+
+        .company-name {
+            font-weight: bold;
+            font-size: 1.15rem;
+            color: var(--text-main);
+        }
+
+        .exp-date {
+            color: var(--accent-blue);
+            font-size: 0.9rem;
+        }
+
+        .exp-role {
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--accent-green);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .education-item {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            header h2 { font-size: 1.2rem; }
+            .exp-header { flex-direction: column; }
+        }
+    </style>
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p><strong>Software QA Engineer | API Automation | Playwright | CI/CD</strong></p>
 
-  <p>
-    I build reliable test automation frameworks for APIs and web applications,
-    with a focus on Playwright, CI/CD integration, and scalable quality practices.
-  </p>
+<div class="container">
 
-  <div class="links">
-    <a href="https://www.linkedin.com/in/your-linkedin-id/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-  </div>
+    <header>
+        <h1>Krishna Mohan Kolamala</h1>
+        <h2>Senior Software QA & AI Automation Engineer</h2>
+        <div class="contact-info">
+            <span>📍 Redmond, WA</span>
+            <span>📱 425-835-3848</span>
+            <span>✉️ <a href="mailto:kkolamala@outlook.com">kkolamala@outlook.com</a></span>
+        </div>
+    </header>
 
-  <h2>Projects</h2>
+    <section id="about">
+        <h3>Summary</h3>
+        <p class="summary-text">
+            Accomplished Senior Software Quality Engineering Leader with over 15 years of IT industry experience. 
+            Specializing in modernizing quality lifecycles through innovative AI Agent orchestration, LLM prompt-engineering standards, 
+            and advanced cross-platform automation frameworks.
+        </p>
+        <ul>
+            <li>Pioneer in AI-driven Quality Engineering using Cursor Cloud AI Agents.</li>
+            <li>6+ years architecting automation frameworks for Web (Playwright, Selenium) and Mobile (Appium).</li>
+            <li>Expert in backend data verification across relational and NoSQL databases.</li>
+            <li>Proficient in scaling API testing via CI/CD pipelines using K6 and JMeter.</li>
+        </ul>
+    </section>
 
-  <div class="project">
-    <h3>API Automation Framework</h3>
-    <p>A reusable framework for API validation, schema checks, and CI reporting.</p>
-  </div>
+    <section id="skills">
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>AI & Automation Agents</h4>
+                <p>Cursor Cloud Agents, GenAI Prompts, GitHub Copilot, LLM Response Evaluation Frameworks</p>
+            </div>
+            <div class="skill-card">
+                <h4>Web UI Automation</h4>
+                <p>Playwright, TypeScript, Testcafe, Selenium, Java, TestNG</p>
+            </div>
+            <div class="skill-card">
+                <h4>API & Performance Testing</h4>
+                <p>Postman, Rest Assured, Swagger, K6, JMeter, Blaze Meter</p>
+            </div>
+            <div class="skill-card">
+                <h4>Databases & CI/CD</h4>
+                <p>SQL Server, Oracle, PostgreSQL, MongoDB, Jenkins, GitHub Actions, AWS</p>
+            </div>
+        </div>
+    </section>
 
-  <div class="project">
-    <h3>Playwright Test Suite</h3>
-    <p>End-to-end automation project with maintainable locators, fixtures, and reporting.</p>
-  </div>
+    <section id="experience">
+        <h3>Professional Experience</h3>
 
-  <div class="project">
-    <h3>CI/CD Test Integration</h3>
-    <p>Automation pipeline integration with GitHub Actions or Buildkite for fast feedback.</p>
-  </div>
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="company-name">Fulcrum Technologies</span>
+                <span class="exp-date">March 2016 – Present</span>
+            </div>
+            <div class="exp-role">Sr QA Lead AI Automation Test Engineer | Bellevue, WA</div>
+            <ul>
+                <li>Designed and deployed intelligent Cursor Cloud AI agents (Testcase-Design, Test-Script, and Auto-Heal agents) to autonomously accelerate QA lifecycles.</li>
+                <li>Architected an automation framework to evaluate and validate LLM output accuracy against curated Golden Sets.</li>
+                <li>Developed a core test automation framework from scratch using Playwright and TypeScript, automating 85% of regression tests.</li>
+            </ul>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="company-name">ADP-AdvancedMD</span>
+                <span class="exp-date">March 2014 – March 2016</span>
+            </div>
+            <div class="exp-role">Sr QA Lead Engineer | Salt Lake City, UTAH</div>
+            <ul>
+                <li>Created Test Automation frameworks using Selenium, Java, Maven, TestNG, and Jenkins.</li>
+                <li>Managed a cross-functional global QA team of 10 members across the USA and India.</li>
+                <li>Executed performance testing metrics schedules utilizing JMeter and Blazemeter.</li>
+            </ul>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="company-name">Cognizant - Walgreens Drugstore.com</span>
+                <span class="exp-date">January 2011 – February 2014</span>
+            </div>
+            <div class="exp-role">Sr QA Engineer | Bellevue, WA</div>
+            <ul>
+                <li>Automated IRIS warehouse management applications and validated barcode scanning software.</li>
+                <li>Built web automation test suites with Java and Selenium for cross-device responsive testing.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h3>Education</h3>
+        <div class="education-item">
+            <strong>Bachelor of Technology in Mechanical Engineering</strong><br>
+            JNT University, Hyderabad (Graduation Year - 2007)
+        </div>
+    </section>
+
+</div>
+
 </body>
 </html>
